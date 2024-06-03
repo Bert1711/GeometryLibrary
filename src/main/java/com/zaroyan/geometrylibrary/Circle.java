@@ -17,5 +17,10 @@ public class Circle {
     public double getPerimeter() {
         return 2 * Math.PI * radius;
     }
+
+    @Override
+    public String toString() {
+        return "Радиус окружности: " + radius ;
+    }
 }
 
