@@ -12,6 +12,7 @@ public class Rectangle implements Shape {
         this.width = width;
     }
 
+    @Override
     public double getArea() {
         return length * width;
     }
